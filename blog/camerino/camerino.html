@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="/blog/style.css">
+
+    <title>Blog Alessia (Camerino)?</title>
+    <link rel="icon" type="assets/cat icon.png" href="/assets/cat icon.png">
+
+</head>
+
+<body class="bg-stone-300">
+
+    <!-- navbar -->
+    <nav
+        class="max-w-screen-xl mx-auto flex justify-between items-center p-4 pt-7 fixed left-0 right-0 top-0 bg-stone-300">
+        <!-- logo e titolo -->
+        <a id="title" href="#" class="flex items-center gap-x-2">
+            <img id="logo" src="https://flowbite.com/docs/images/logo.svg" class="h-6" alt="Flowbite Logo" />
+            <span class="text-xl font-semibold text-black">Lilliban</span>
+        </a>
+        <!-- searchbar -->
+        <div class="hidden searchbar-wrapper text-black">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
+                stroke="currentColor" class="size-4 absolute translate-x-2 translate-y-2">
+                <path stroke-linecap="round" stroke-linejoin="round"
+                    d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
+            </svg>
+            <input type="search" id="search"
+                class="border-2 border-white bg-transparent rounded-full pl-7 py-1 text-sm">
+        </div>
+        <!-- right end buttons -->
+        <ul class="text-black font-normal flex flex-row gap-x-5">
+            <li>
+                <a href="#" class="px-4 py-2">Home</a>
+            </li>
+            <li>
+                <a href="#" class="px-4 py-2">About</a>
+            </li>
+            <li>
+                <a href="#" class="px-4 py-2">Candy</a>
+            </li>
+            <li>
+                <a href="#" class="px-4 py-2">New</a>
+            </li>
+            <li>
+                <a href="#"
+                    class="px-4 py-2 border-white border-2 rounded-full hover:bg-white hover:text-slate-900 transition-all duration-300">Support</a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- carosello -->
+    <div id="carousel-container"
+        class="flex overflow-x-auto snap-x mt-24 snap-mandatory no-scrollbar max-w-screen-xl mx-auto">
+
+        <div id="carousel-page-1"
+            class="flex-none grid grid-cols-8 grid-rows-5 gap-5 text-black w-full h-full snap-center">
+            <div class="border-white/15 rounded-xl flex items-center col-span-4 row-span-7">
+                <img src="/assets/provetta.png" class="rounded-xl">
+            </div>
+            <div class="border-white/15 rounded-xl flex flex-col justify-center col-span-4 row-span-5 pr-5">
+                <h1 class="mr-auto text-5xl font-black mb-8 rounded-xl p-2 hover:text-slate-900 transition-all">
+                    UOOOO <br> TRICK OR <br> TREAT!!</h1>
+                <p class="mr-auto line-clamp-4 rounded-xl px-2 hover:text-slate-900 transition-all">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. In consectetur lectus
+                    augue, sed portitor felis facilisis tempus. Aliquam ac lectus malesuada, molestie enim at,
+                    tincidunt ligula. Cras mi libero, commodo eu sem eu, bibendum porta est. Nam nec mattis augue. Morbi
+                    aliquet quis sem nec posuere. Nunc ullamcorper lacinia tincidunt. Suspendisse fermentum pharetra
+                    nisl, tincidunt vestibulum dolor convallis id.
+                </p>
+            </div>
+
+            <div id="container-categories" class="flex col-span-4 justify-between pr-5">
+                <div
+                    class="bg-red-400 flex flex-col items-center justify-center gap-y-1 hover:-translate-y-4 transition-all">
+                    <h4 class="">Testo</h4>
+                    <div class="size-16 bg-black rounded-lg"></div>
+                    <p class="">Leggi n storie</p>
+                </div>
+                <div
+                    class="bg-red-400 flex flex-col items-center justify-center gap-y-1 hover:-translate-y-4 transition-all">
+                    <h4 class="">Testo</h4>
+                    <div class="size-16 bg-black rounded-lg"></div>
+                    <p class="">Leggi n storie</p>
+                </div>
+                <div
+                    class="bg-red-400 flex flex-col items-center justify-center gap-y-1 hover:-translate-y-4 transition-all">
+                    <h4 class="">Testo</h4>
+                    <div class="size-16 bg-black rounded-lg"></div>
+                    <p class="">Leggi n storie</p>
+                </div>
+                <div
+                    class="bg-red-400 flex flex-col items-center justify-center gap-y-1 hover:-translate-y-4 transition-all">
+                    <h4 class="">Testo</h4>
+                    <div class="size-16 bg-black rounded-lg"></div>
+                    <p class="">Leggi n storie</p>
+                </div>
+                <div
+                    class="bg-red-400 flex flex-col items-center justify-center gap-y-1 hover:-translate-y-4 transition-all">
+                    <h4 class="">Testo</h4>
+                    <div class="size-16 bg-black rounded-lg"></div>
+                    <p class="">Leggi n storie</p>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    <!-- carousel indicators -->
+    <div id="carousel-indicators"
+        class="hidden border-white/15 rounded-xl justify-center items-center gap-5 mt-11">
+        <span id="carousel-index-1" class="bg-white rounded-full w-5 h-1 transition-all"></span>
+        <span id="carousel-index-2" class="bg-white/50 rounded-full w-1 h-1 transition-all"></span>
+        <span id="carousel-index-3" class="bg-white/50 rounded-full w-1 h-1 transition-all"></span>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- footer -->
+    <footer class="hidden rounded-xl max-w-screen-xl mx-auto justify-evenly text-black mt-20">
+        <div class="p-4 flex flex-col">
+            <a id="title" href="#" class="flex items-center gap-x-2 mb-4">
+                <img id="logo" src="https://flowbite.com/docs/images/logo.svg" class="h-6" alt="Flowbite Logo" />
+                <span class="text-xl font-semibold text-black">Lilliban</span>
+            </a>
+            <p class="pl-1 mb-2">Enjoy the coolest life <br> and plate this.</p>
+            <div class="flex flex-row gap-2">
+                <!-- INSTAGRAM LINK -->
+                <a href="https://www.instagram.com/alessia.grandetti/" target="_blank"
+                    class="hover:bg-white transition-all duration-300 hover:text-slate-900 p-1 rounded-lg">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="size-6" fill="currentColor" viewBox="0 0 448 512">
+                        <path
+                            d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z" />
+                    </svg>
+                </a>
+                <!-- TIKTOK LINK -->
+                <a href="https://www.tiktok.com/@r0d3xs?lang=it-IT" target="_blank"
+                    class="hover:bg-white transition-all duration-300 hover:text-slate-900 px-1.5 py-1 rounded-lg">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="size-5 translate-y-0.5" fill="currentColor"
+                        viewBox="0 0 448 512">
+                        <path
+                            d="M448 209.9a210.1 210.1 0 0 1 -122.8-39.3V349.4A162.6 162.6 0 1 1 185 188.3V278.2a74.6 74.6 0 1 0 52.2 71.2V0l88 0a121.2 121.2 0 0 0 1.9 22.2h0A122.2 122.2 0 0 0 381 102.4a121.4 121.4 0 0 0 67 20.1z" />
+                    </svg>
+                </a>
+            </div>
+        </div>
+        <div class="p-4">
+            <h3 class="text-lg font-medium mb-4">About</h3>
+            <p>About Us</p>
+            <p>Heatwaves</p>
+            <p>Hose</p>
+        </div>
+        <div class="p-4">
+            <h3 class="text-lg font-medium mb-4">Our Services</h3>
+            <p>Pricing</p>
+            <p>Fracture</p>
+            <p>Snippet Shopping</p>
+        </div>
+    </footer>
+
+    <script src="camerino.js"></script>
+
+</body>
+
+</html>
