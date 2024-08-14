@@ -74,12 +74,26 @@ document.addEventListener("DOMContentLoaded", function () {
 //Daily quote
 document.addEventListener("DOMContentLoaded", function () {
   const dailyQuote = document.getElementById("daily-quote");
+  const today = new Date().getDay() || 7;
   const quotes = [
-    "The best way to predict the future is to create it.",
-  ]
+    "Buon Lunedì!",
+    "Buon Martedì!",
+    "Buon Mercoledì!",
+    "Buon Giovedì!",
+    "Buon Venerdì!",
+    "Buon Sabato!",
+    "Buona Domenica!",
 
+    "Sii la persona che vorresti incontrare."
+  ];
 
+  // Generate a random number between 0 and 99
+  const randomNum = Math.floor(Math.random() * 100);
 
-  
-
+  // Check if the random number is less than or equal to 20
+  if (randomNum <= 25) {
+    dailyQuote.innerText = quotes[7];
+  } else {
+    dailyQuote.innerText = quotes[today - 1];
+  }
 });
