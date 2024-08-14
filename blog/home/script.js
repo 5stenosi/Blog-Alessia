@@ -70,3 +70,16 @@ document.addEventListener("DOMContentLoaded", function () {
     title.addEventListener("mouseleave", handleLogoLeave);
   });
 });
+
+//Daily quote
+document.addEventListener("DOMContentLoaded", function () {
+  const dailyQuote = document.getElementById("daily-quote");
+  const quotes = [
+    "The best way to predict the future is to create it.",
+  ]
+
+
+
+  
+
+});
