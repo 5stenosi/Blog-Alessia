@@ -1,32 +1,44 @@
 {
-    "posts": [
-        {
-            "id": 1,
-            "title": "Welcome to the blog",
-            "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean fermentum, nisi sit amet dignissim interdum, dolor tortor bibendum nibh, vitae fermentum sapien mauris at turpis. Fusce et molestie odio. Mauris sed dolor turpis. Nulla quis commodo libero. Nulla pulvinar condimentum ligula, ac sollicitudin lectus pulvinar sit amet. Mauris egestas, orci id vestibulum vehicula, dui magna viverra lectus, at dictum eros tellus ut libero. Suspendisse sit amet efficitur sapien. Nullam at elit non ante egestas commodo eget quis massa.",
-            "likes": 27
-        },
-        {
-            "id": 2,
-            "title": "How to be perfect",
-            "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean fermentum, nisi sit amet dignissim interdum, dolor tortor bibendum nibh, vitae fermentum sapien mauris at turpis. Fusce et molestie odio. Mauris sed dolor turpis. Nulla quis commodo libero. Nulla pulvinar condimentum ligula, ac sollicitudin lectus pulvinar sit amet. Mauris egestas, orci id vestibulum vehicula, dui magna viverra lectus, at dictum eros tellus ut libero. Suspendisse sit amet efficitur sapien. Nullam at elit non ante egestas commodo eget quis massa.",
-            "likes": 8
-        },
-        {
-            "id": 3,
-            "title": "New s*x positions",
-            "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean fermentum, nisi sit amet dignissim interdum, dolor tortor bibendum nibh, vitae fermentum sapien mauris at turpis. Fusce et molestie odio. Mauris sed dolor turpis. Nulla quis commodo libero. Nulla pulvinar condimentum ligula, ac sollicitudin lectus pulvinar sit amet. Mauris egestas, orci id vestibulum vehicula, dui magna viverra lectus, at dictum eros tellus ut libero. Suspendisse sit amet efficitur sapien. Nullam at elit non ante egestas commodo eget quis massa.",
-            "likes": 69
-        }
-    ],
-    "polls": [
-        {
-            "id": 1,
-            "question": "What is your favorite color?",
-            "answerA": "Red",
-            "answerB": "Blue",
-            "answerC": "Green",
-            "answerD": "Yellow"
-        }
-    ]
+  "posts": [
+    {
+      "id": "1",
+      "title": "Welcome to the blog",
+      "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean fermentum, nisi sit amet dignissim interdum, dolor tortor bibendum nibh, vitae fermentum sapien mauris at turpis. Fusce et molestie odio. Mauris sed dolor turpis. Nulla quis commodo libero. Nulla pulvinar condimentum ligula, ac sollicitudin lectus pulvinar sit amet. Mauris egestas, orci id vestibulum vehicula, dui magna viverra lectus, at dictum eros tellus ut libero. Suspendisse sit amet efficitur sapien. Nullam at elit non ante egestas commodo eget quis massa.",
+      "likes": 27
+    },
+    {
+      "id": "2",
+      "title": "How to be perfect",
+      "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean fermentum, nisi sit amet dignissim interdum, dolor tortor bibendum nibh, vitae fermentum sapien mauris at turpis. Fusce et molestie odio. Mauris sed dolor turpis. Nulla quis commodo libero. Nulla pulvinar condimentum ligula, ac sollicitudin lectus pulvinar sit amet. Mauris egestas, orci id vestibulum vehicula, dui magna viverra lectus, at dictum eros tellus ut libero. Suspendisse sit amet efficitur sapien. Nullam at elit non ante egestas commodo eget quis massa.",
+      "likes": 8
+    },
+    {
+      "id": "3",
+      "title": "New s*x positions",
+      "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean fermentum, nisi sit amet dignissim interdum, dolor tortor bibendum nibh, vitae fermentum sapien mauris at turpis. Fusce et molestie odio. Mauris sed dolor turpis. Nulla quis commodo libero. Nulla pulvinar condimentum ligula, ac sollicitudin lectus pulvinar sit amet. Mauris egestas, orci id vestibulum vehicula, dui magna viverra lectus, at dictum eros tellus ut libero. Suspendisse sit amet efficitur sapien. Nullam at elit non ante egestas commodo eget quis massa.",
+      "likes": 69
+    },
+    {
+      "id": "11ee",
+      "title": "Ciao Ale 💞",
+      "body": "Come stai amore?",
+      "likes": 0
+    },
+    {
+      "id": "269b",
+      "title": "waf",
+      "body": "faafwawfawfafw",
+      "likes": 0
+    }
+  ],
+  "polls": [
+    {
+      "id": "1",
+      "question": "What is your favorite color?",
+      "answerA": "Red",
+      "answerB": "Blue",
+      "answerC": "Green",
+      "answerD": "Yellow"
+    }
+  ]
 }
